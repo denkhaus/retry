@@ -3,7 +3,8 @@
 ## install
 
 ```sh {"id":"01J354RVXAQS18SM5RXX8HZWGZ"}
-go install github.com/denkhaus/retry/cmd/retry@latest
+go install github.com/denkhaus/retry/cmd/retry@latest # install local dev version without builddate/git-commit
+make #build version locally -> bin/retry -> executable is copied to your $GOBIN directory 
 ```
 
 ## usage
